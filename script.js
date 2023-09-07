@@ -6,7 +6,7 @@ function fibonacci(num) {
 	else if(num==2)return b;
 	else
 	{
-		let p=fibonacci(num-1)+fibonacci(num-2);
+		let p=fibonacci(num-2)+fibonacci(num-3);
 		return p;
 	}
 	
