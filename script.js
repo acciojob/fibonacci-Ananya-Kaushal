@@ -10,8 +10,9 @@ function fibonacci(num) {
 	// 	return p;
 	// }
 	let a = 0, b = 1, c, i;
-    if( num == 0)
+    if( num == 1)
         return a;
+	
     for(i = 2; i < num; i++)
     {
     c = a + b;
